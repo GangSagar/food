@@ -1,14 +1,17 @@
 {
+  "homepage": "https://GnagSagar.github.io/food",
   "name": "food",
   "version": "1.0.0",
   "scripts": {
     "start": "parcel index.html",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
     "build": "parcel build index.html",
     "test": "jest",
     "watch-test": "jest --watch"
   },
   "keywords": [],
-  "author": "",
+  "author": "Ganga Sagar",
   "license": "ISC",
   "devDependencies": {
     "@babel/core": "^7.22.9",
